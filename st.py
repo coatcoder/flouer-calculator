@@ -2,6 +2,7 @@ from floUer import *
 import streamlit as st
 
 st.title('FloUer калькулятор')
+st.subheader('_Не оптимизированная версия_')
 get_flower()
 names = []
 
