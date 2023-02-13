@@ -24,7 +24,7 @@ else:
    amount = st.number_input(min_value=1, step=1, label="Количество цветов (в 10 шт.) : ")
    nacenka = st.number_input(min_value=0, max_value=100, step=1, label="Введите наценку (в %): ")
    izn = float(value) * float(float(amount))
-   itog = (float(value) + (float(value) / 100) * nacenka) * float(float(amount))
+   itog = (float(value) + (float(value) / 100 * nacenka))* float(amount)
    pribil = itog - izn
    rentabel = float(pribil / izn * 100)
 
