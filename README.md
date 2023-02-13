@@ -14,3 +14,5 @@ https://coatcoder-flouer-calculator-st-a07a6g.streamlit.app/
 - [ ] Выспаться
 
 ## Поддержка : 
+
+https://discord.gg/b6P3xjS7JF
