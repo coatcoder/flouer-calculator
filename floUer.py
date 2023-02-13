@@ -25,3 +25,4 @@ def get_flower():
                 data[name] = price
         get_all()
     get_info()
+
