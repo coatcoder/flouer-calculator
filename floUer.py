@@ -6,7 +6,7 @@ htmla = page.text
 try:
     from BeautifulSoup import BeautifulSoup
 except ImportError:
-    from bs4 import BeautifulSoup
+    from bs4 import BeautifulSoup                      #На заметку : переписать всё под pandas
 
 
 def get_flower():
