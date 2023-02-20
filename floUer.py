@@ -5,6 +5,7 @@ try:
 except ImportError:
     from bs4 import BeautifulSoup
 #Добавить выбор сайта, проработать алгоритм для других сайтов.
+
 def count_pages_opt_fp_ru():
     pg_nums_opt_fp_ru = []
     for i in range(1, 278):
