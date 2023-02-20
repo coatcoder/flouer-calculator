@@ -1,8 +1,13 @@
 from floUer import *
 import streamlit as st
 
+#1.3:
+# Pandas support
+# floUer_multi support
+
+
 pg_nums = count_pages_opt_fp_ru()
-st.title('FloUer Калькулятор v1.2')
+st.title('FloUer Калькулятор v1.3 (Experimental)')
 page_selected = st.slider('Страница сайта', 1, pg_nums[-1], 1)
 
 # P.S: 19/2/23 23:10 - Помогите.
