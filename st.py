@@ -10,8 +10,6 @@ pg_nums = count_pages_opt_fp_ru()
 st.title('FloUer Калькулятор v1.3 (Experimental)')
 page_selected = st.slider('Страница сайта', 1, pg_nums[-1], 1)
 
-# P.S: 19/2/23 23:10 - Помогите.
-# P.S (2): 20/2/23 14:31 - УРААААААА. Выполнение алгоритма теперь занимает больше времени...
 names = []
 data = get_flower_opt_fp_ru(page_selected)
 for key, value in data.items():
